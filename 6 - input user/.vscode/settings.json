@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": -0.4,
+    "terminal.integrated.fontSize": 14,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Noctis Minimus",
+    "workbench.iconTheme": "vscode-icons",
+    "python.pythonPath": "/home/akmmp/.pyenv/versions/3.8.2/bin/python"
+}
