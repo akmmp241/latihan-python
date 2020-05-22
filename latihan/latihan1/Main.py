@@ -1,34 +1,33 @@
-from module import tool
+from Tool.clearScreen import clearScreen as clc
+from Module import Persegi
 
-def HitungLuas():
-    tool.clearScreen()
+def Hitungluas():
+    clc()
+    print("Ketikan 'keluar' jika ingin keluar")
+    input("")
 
-    print("HitungLuas\n")
     start = True
 
     while start:
-        print("\n1.persegi")
+        clc()
+        print("HitungLuas\n")
+        print("1.Persegi")
         print("2.persegi panjang")
         print("0.keluar")
 
         menu = input("\nMasukan pilihan: ")
 
         if menu == "1":
-            print("persegi")
-            input("")
-            tool.clearScreen()
+            Persegi.persegi()
         elif menu == "2":
             print("persegi panjang")
             input("")
-            tool.clearScreen()
         elif menu == "0":
             exit()
         else:
             print("menu tidak ditemukan")
             input("")
-            tool.clearScreen()
 
-        
+        clc()
 
-
-HitungLuas()
+Hitungluas()

@@ -1,0 +1,2 @@
+def jeda():
+    input("")
